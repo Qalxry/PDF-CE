@@ -1,0 +1,4 @@
+tqdm
+PyQt5
+PyMuPDF
+Pillow

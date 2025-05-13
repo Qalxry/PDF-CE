@@ -1,0 +1,10 @@
+__pycache__/
+.vscode/
+.old/
+build/
+dist/
+test/
+*.pdf
+*.log
+*.json
+*.log.*
