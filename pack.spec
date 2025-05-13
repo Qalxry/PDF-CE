@@ -4,9 +4,10 @@ import PyInstaller.config
 import os
 import datetime
 
-# 从wqdl包中导入版本号
-# version = os.popen('python -c "from wqdl import __version__; print(__version__)"').read().strip()
-version = '1.0.0'  # Replace with actual version retrieval logic
+# 读取版本号
+with open("VERSION", "r", encoding="utf-8") as f:
+    version = f.read().strip()
+
 PyInstaller.config.CONF['distpath'] = os.path.join('dist', f'build-{datetime.datetime.now().strftime("%Y%m%d")}-{version}')
 
 a = Analysis(
@@ -29,7 +30,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='PDFCompressor',
+    name='PDF-CE',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
