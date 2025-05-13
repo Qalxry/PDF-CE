@@ -27,7 +27,7 @@ The PDF Compressor & Enhancer is a tool designed to compress and enhance images 
 
 | Platform | Method |
 |:---:|:---:|
-| Windows 64bit | Run from Source |
+| Windows 64bit | [Github Release](https://github.com/Qalxry/PDF-CE/releases/latest) |
 |  Linux 64bit  | [Github Release](https://github.com/Qalxry/PDF-CE/releases/latest) |
 |  MacOS 64bit  | Run from Source |
 

@@ -30,7 +30,7 @@ import subprocess
 import webbrowser
 
 # Constants
-REPO_URL = "https://github.com/Qalxry/PDF-EC"
+REPO_URL = "https://github.com/Qalxry/PDF-CE"
 logger = logging.getLogger(__name__)  # Logger for this module
 
 
@@ -40,7 +40,7 @@ class MainWindow(QMainWindow):
         logger.info("MainWindow initializing...")
         # ... (rest of __init__ remains the same) ...
         self.setWindowTitle("PDF Compressor & Enhancer")
-        self.setGeometry(50, 50, 1300, 800)
+        self.setGeometry(50, 50, 1400, 800)
         self.settings = DEFAULT_SETTINGS.copy()
         self.compression_thread = None
         self.compression_worker_obj = None
