@@ -1,6 +1,6 @@
 ![PDF-CE](https://socialify.git.ci/Qalxry/PDF-CE/image?description=1&font=Jost&logo=https%3A%2F%2Fraw.githubusercontent.com%2FQalxry%2FPDF-CE%2Frefs%2Fheads%2Fmain%2Fassets%2Flogo.png&name=1&owner=1&pattern=Plus&stargazers=1&theme=Auto)
 
-<h1 align='center'> PDF-CE: PDF Image Compressor & Enhancer for Scanned Documents</h1>
+<h1 align='center'> PDF-CE: PDF Compressor & Enhancer for Scanned Documents</h1>
 
 <div align="center">
 <img src="https://img.shields.io/github/stars/Qalxry/PDF-CE?style=social" alt="GitHub stars" />
@@ -15,7 +15,7 @@
 
 ## Overview
 
-The PDF Image Compressor & Enhancer is a tool designed to compress and enhance images within PDF files. It provides various settings for compression and image enhancement, allowing users to optimize PDF files for different purposes.
+The PDF Compressor & Enhancer is a tool designed to compress and enhance images within PDF files. It provides various settings for compression and image enhancement, allowing users to optimize PDF files for different purposes.
 
 ![](./assets/image.png)
 

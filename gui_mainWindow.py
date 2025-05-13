@@ -39,7 +39,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         logger.info("MainWindow initializing...")
         # ... (rest of __init__ remains the same) ...
-        self.setWindowTitle("PDF Image Compressor & Enhancer")
+        self.setWindowTitle("PDF Compressor & Enhancer")
         self.setGeometry(50, 50, 1300, 800)
         self.settings = DEFAULT_SETTINGS.copy()
         self.compression_thread = None
