@@ -91,6 +91,15 @@ Not implemented yet. Just a placeholder for future development.
 - **Cancel Compression**: Cancel the ongoing compression process.
 - **Start Compression**: Start the compression and enhancement process.
 
+## TODOs
+
+- [ ] fix: 修复书签和文本层丢失的问题
+- [ ] feat: 将分辨率调整从 DPI 改为百分比，并在旁边显示当前 DPI 和页面分辨率，以便更好地理解和使用
+- [ ] feat: 显示输入文件大小，并允许实时预览压缩后的文件大小（通过当前缓存的页面的压缩比计算）
+- [ ] feat: 改进图像增强功能，允许更细致地调整，并允许保存配置
+- [ ] feat: 添加命令行参数支持，允许用户在命令行中处理 PDF 文件，这样可以在没有 GUI 的情况下使用该工具，以及批量处理多个文件
+- [ ] feat: 添加 OCR 功能
+
 ## Support
 
 For any issues or feedback, please submit a issue on the GitHub repository.
